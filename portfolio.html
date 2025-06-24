@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teeqah Portfolio</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="student.html">Teeqah's Portfolio</a></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="experience.html">Experiences</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-heading">
+        <h1 class="fade-in">Design Portfolio</h1>
+    </header>
+
+    <section class="portfolio-section">
+        <div class="work">
+            <h2>Event Posters</h2>
+            <div class="work-images">
+                <img src="images/poster 1.jpeg" alt="Related Work Image">
+                <img src="images/poster 2.jpeg" alt="Related Work Image">
+            </div>
+        </div>
+
+        <div class="work">
+            <h2>Ebook Covers</h2>
+            <div class="work-images">
+                <img src="images/ebook 1.jpeg" alt="Related Work Image">
+                <img src="images/ebook 2.jpeg" alt="Related Work Image">
+                <img src="images/ebook 3.jpeg" alt="Related Work Image">
+                <img src="images/ebook 4.jpeg" alt="Related Work Image">
+                <img src="images/ebook 5.jpeg" alt="Related Work Image">
+                <img src="images/ebook 6.jpeg" alt="Related Work Image">
+            </div>
+        </div>
+
+        <div class="work">
+            <h2>Logo</h2>
+            <div class="work-images">
+                <img src="images/logo.jpeg" alt="Related Work Image">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Teeqah. All rights reserved. | <a href="contact.html">Contact me</a></p>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            $(".fade-in").hide().fadeIn(2000);
+            $(".work-images img").hover(
+                function() { $(this).css("transform", "scale(1.1)"); },
+                function() { $(this).css("transform", "scale(1)"); }
+            );
+        });
+    </script>
+
+</body>
+</html>
