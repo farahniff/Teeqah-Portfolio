@@ -20,7 +20,7 @@
 }
 
 .navbar a:hover {
-    background-color: #162048;
+    background-color: #1d0d51;
     border-radius: 5px;
 }
 
@@ -40,17 +40,17 @@
 }
 
 .text-content h1 {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
-    color: #24305E;
+    color: #071735;
     margin: 20px;
     line-height: 1;
 }
 
 .text-content p {
-    font-size: 25px;
+    font-size: 20px;
     font-style: italic;
-    color: #3e4e68;
+    color: #071735;
     margin: 20px;
     line-height: 1;
 }
@@ -63,7 +63,7 @@
     border-radius: 10px;
     text-decoration: none;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
     box-shadow: 0 8px 20px rgba(148, 38, 115, 0.3);
     transition: all 0.3s ease;
     letter-spacing: 1px;
@@ -119,16 +119,12 @@
 .navdiv ul li a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     transition: color 0.3s ease;
 }
 
 .navdiv ul li a:hover {
     color: #f471b5;
-}
-
-.hero {
-    padding: 60px 40px;
 }
 
 .hero-content {
@@ -166,7 +162,7 @@
 .info-section {
     background-color: white;
     padding: 20px;
-    font-size: 18px;
+    font-size: 15px;
     border-radius: 20px;                 
     margin-bottom: 10px;
     line-height: 1.6;
@@ -180,7 +176,8 @@
 
 /*portfolio*/
 .logo a {
-    font-size: 30px;
+    font-size: 25px;
+    font-style: italic;
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -188,34 +185,64 @@
 }
 
 .portfolio-section {
-    padding: 40 20px;
-    max-width: 1000px;
-    margin: auto;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .work {
-    margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .work h2 {
-    font-size: 40px;
-    color: #24305E;
-    text-align: center;
-    margin-bottom: 15px;
+  font-size: 25px;
+  color: #071735;
+  text-align: center;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #cfcfcf;
+  padding-bottom: 10px;
 }
 
 .work-images {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
-.work-images img {
-    width: 45%;
-    max-width: 300px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+.image-item {
+  width: 45%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.image-item img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+
+.image-item img:hover {
+  transform: scale(1.05);
+}
+
+.image-description {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000000;
+}
+
+.section-description {
+  text-align: center;
+  font-size: 15px;
+  color: #000000;
+  margin-bottom: 25px;
+  padding: 0 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
 }
 
 /*experiences*/
@@ -227,7 +254,7 @@
 }
 
 .page-heading h1 {
-    font-size: 50px;
+    font-size: 20px;
     text-transform: uppercase;
     margin: 0;
 }
@@ -257,7 +284,7 @@
 }
 
 .exp-text h3 {
-    font-size: 25px;
+    font-size: 20px;
     color: #222;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -266,7 +293,8 @@
 }
 
 .exp-text p {
-    font-size: 20px;
+    font-size: 15px;
+    font-style: italic;
     line-height: 1.6;
     text-align: justify;
 }
@@ -301,16 +329,17 @@
 }
 
 .exp-grid h3 {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 10px;
-    color: #37474f;
+    color: #071735;
     text-transform: uppercase;
     border-left: 5px solid #d44690;
     padding-left: 15px;
 }
 
 .exp-grid p {
-    font-size: 20px;
+    font-size: 15px;
+    font-style: italic;
     line-height: 1.6;
     text-align: justify;
 }
@@ -332,12 +361,12 @@
   padding: 40px;
   max-width: 600px;
   width: 100%;
-  color: #1c2e4a;
+  color: #071735;
 }
 
 .info-card h1 {
   font-size: 40px;
-  color: #24305E;
+  color: #071735;
   margin-bottom: 25px;
 }
 
@@ -355,7 +384,7 @@
 }
 
 .prepared {
-  color: #374785;
+  color: #071735;
   font-weight: bold;
 }
 
@@ -382,8 +411,8 @@ body {
 
 .contact-wrapper h2 {
     font-size: 28px;
-    color: #24305E;
-    border: 1px solid #24305E;
+    color: #071735;
+    border: 1px solid #071735;
     padding: 10px;
     margin-bottom: 20px;
     background-color: #f4f8ff;
@@ -395,7 +424,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    border: 1px solid #24305E;
+    border: 1px solid #071735;
     padding: 30px;
     flex-wrap: wrap;
     border-radius: 8px;
@@ -406,15 +435,15 @@ body {
 .contact-info {
     flex: 1;
     text-align: left;
-    font-size: 20px;
-    color: #24305E;
+    font-size: 15px;
+    color: #071735;
     line-height: 2;
     padding: 10px;
 }
 
 .contact-info i {
     margin-right: 10px;
-    color: #374785;
+    color: #071735;
     transition: transform 0.3s ease;
 }
 

@@ -1,72 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teeqah Portfolio</title>
-    <link rel="stylesheet" href="mystyle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Teeqah Portfolio</title>
+  <link rel="stylesheet" href="mystyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navdiv">
-            <div class="logo"><a href="student.html">Teeqah's Portfolio</a></div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="experience.html">Experiences</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+  <nav class="navbar">
+    <div class="navdiv">
+      <div class="logo"><a href="student.html">Teeqah's Portfolio</a></div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="experience.html">Experiences</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-heading">
+    <h1 class="fade-in">Design Portfolio</h1>
+  </header>
+
+  <section class="portfolio-section">
+    <div class="work">
+      <h2>Event Posters</h2>
+    <p class="section-description">
+        Designed promotional posters for a diploma event during Semester 2 and created a customized poster for a kindergarten tournament, tailored to meet the client's specific requirements.</p>
+      <div class="work-images">
+        <div class="image-item">
+          <img src="images/poster 1.jpeg" alt="Event Poster 1" />
         </div>
-    </nav>
-
-    <header class="page-heading">
-        <h1 class="fade-in">Design Portfolio</h1>
-    </header>
-
-    <section class="portfolio-section">
-        <div class="work">
-            <h2>Event Posters</h2>
-            <div class="work-images">
-                <img src="images/poster 1.jpeg" alt="Related Work Image">
-                <img src="images/poster 2.jpeg" alt="Related Work Image">
-            </div>
+        <div class="image-item">
+          <img src="images/poster 2.jpeg" alt="Event Poster 2" />
         </div>
+      </div>
+    </div>
 
-        <div class="work">
-            <h2>Ebook Covers</h2>
-            <div class="work-images">
-                <img src="images/ebook 1.jpeg" alt="Related Work Image">
-                <img src="images/ebook 2.jpeg" alt="Related Work Image">
-                <img src="images/ebook 3.jpeg" alt="Related Work Image">
-                <img src="images/ebook 4.jpeg" alt="Related Work Image">
-                <img src="images/ebook 5.jpeg" alt="Related Work Image">
-                <img src="images/ebook 6.jpeg" alt="Related Work Image">
-            </div>
+    <div class="work">
+      <h2>Ebook Covers</h2>
+    <p class="section-description">
+        Created multiple eBook covers for an online reading platform during my high school years, each designed to align with the preferences and requests of individual clients.</p>
+      <div class="work-images">
+        <div class="image-item">
+          <img src="images/ebook 1.jpeg" alt="Ebook Cover 1" />
         </div>
-
-        <div class="work">
-            <h2>Logo</h2>
-            <div class="work-images">
-                <img src="images/logo.jpeg" alt="Related Work Image">
-            </div>
+        <div class="image-item">
+          <img src="images/ebook 2.jpeg" alt="Ebook Cover 2" />
         </div>
-    </section>
+        <div class="image-item">
+          <img src="images/ebook 3.jpeg" alt="Ebook Cover 3" />
+        </div>
+        <div class="image-item">
+          <img src="images/ebook 4.jpeg" alt="Ebook Cover 4" />
+        </div>
+        <div class="image-item">
+          <img src="images/ebook 5.jpeg" alt="Ebook Cover 5" />
+        </div>
+        <div class="image-item">
+          <img src="images/ebook 6.jpeg" alt="Ebook Cover 6" />
+        </div>
+      </div>
+    </div>
 
-    <footer class="footer">
-        <p>&copy; 2025 Teeqah. All rights reserved. | <a href="contact.html">Contact me</a></p>
-    </footer>
+    <div class="work">
+      <h2>Logo</h2>
+    <p class="section-description">
+        Consistently contributed to logo design for various assignments, ensuring each logo was thoughtfully crafted to align with the selected topic and theme.</p>
+      <div class="work-images">
+        <div class="image-item">
+          <img src="images/logo.jpeg" alt="Logo Design" />
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script>
-        $(document).ready(function() {
-            $(".fade-in").hide().fadeIn(2000);
-            $(".work-images img").hover(
-                function() { $(this).css("transform", "scale(1.1)"); },
-                function() { $(this).css("transform", "scale(1)"); }
-            );
-        });
-    </script>
-
+  <footer class="footer">
+    <p>&copy; 2025 Teeqah. All rights reserved. | <a href="contact.html">Contact me</a></p>
+  </footer>
 </body>
 </html>
