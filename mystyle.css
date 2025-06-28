@@ -20,9 +20,10 @@
 }
 
 .navbar a:hover {
-    background-color: #1d0d51;
-    border-radius: 5px;
+    color: #fff; /* optional: makes text white when glowing */
+    text-shadow: 0 0 8px #9c1a3b, 0 0 12px #9c1a3b;
 }
+
 
 .hero {
     padding: 30px 30px;
@@ -163,13 +164,13 @@
     background-color: white;
     padding: 20px;
     font-size: 15px;
-    border-radius: 20px;                 
+    border-radius: 10px;                 
     margin-bottom: 10px;
-    line-height: 1.6;
-    border: 3px dashed #841e53;             
+    line-height: 1.5;
+    border: 1px dashed #841e53;             
     opacity: 0;
     animation: fadeIn 1.2s ease forwards;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
     width: 600px;
 }
 
@@ -178,8 +179,8 @@
 .logo a {
     font-size: 25px;
     font-style: italic;
-    font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-family: 'Segoe UI', sans-serif;
     color: white;
     text-decoration: none;
 }
@@ -516,4 +517,69 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+.quote-section {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    color: #071735;
+    max-width: 800px;
+    margin: 60px auto;
+    line-height: 1.5;
+}
+
+/*Skills*/
+.skills-detail-section {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.skills-text h2 {
+  font-size: 28px;
+  color: #071735;
+  margin-bottom: 10px;
+}
+
+.skill-level {
+  margin-bottom: 20px;
+}
+
+.skill-level .diamond {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+  transform: rotate(45deg);
+  background-color: #ccc;
+}
+
+.skill-level .filled {
+  background-color: #d44690;
+}
+
+.skill-level .empty {
+  background-color: #d4d4d4;
+}
+
+.skills-text h3 {
+  font-size: 20px;
+  color: #071735;
+  margin-bottom: 15px;
+}
+
+.skills-text p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.section-divider {
+  width: 50%;
+  height: 1px;
+  background-color: #d44690;
+  border: none;
+  margin: 10px auto;
 }
